@@ -1,0 +1,57 @@
+/* body {
+    background-color: #222;
+    font-family: sans-serif;
+}
+*/
+
+#mapDiv h1,
+#mapDiv h2,
+#mapDiv p {
+    color: white;
+}
+
+#main {
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+}
+
+#mapDiv {
+    width: 800px;
+    height: 800px;
+    border: thin solid black;
+}
+
+#marker {
+    width: 500px;
+    height: 280px;
+    background-color: #333;
+    /*background-image: url(https://proxy.duckduckgo.com/iu/?u=http%3A%2F%2Fwww.technocrazed.com%2Fwp-content%2Fuploads%2F2015%2F12%2FWindows-XP-wallpaper-2.jpg);
+    */background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+}
+
+#content {
+    width: 99%;
+    height: 100%;
+    padding-left: 1%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.text {
+    background-color: rgba(0,0,0,0.4);
+    width: 100%;
+}
+
+.carousel img {
+    height: 25vh;
+}
+
+.carousel-inner {
+    background-color: #333;
+}

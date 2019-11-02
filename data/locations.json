@@ -1,0 +1,141 @@
+[
+    {
+        "position": [35.509937, 139.606432],
+        "content": "Japan's largest stadium with a capacity of 70,000 hosting regular international & J League fixtures.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "International Stadium Yokohama",
+        "image": "./img/pictures/yokohama.jpg"
+    },
+    {
+        "position": [35.664252, 139.527145],
+        "content": "The stadium is the home of J1 League football club FC Tokyo and J2 League football club Tokyo Verdy and is used as the venue of some lower divisions of football leagues.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Tokyo Stadium",
+        "image": "./img/pictures/tokyo.jpg"
+    },
+    {
+        "position": [33.200695, 131.657553],
+        "content": "Showa Denko Dome Oita (昭和電工ドーム大分) is a multi-purpose stadium in the city of Ōita.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Oita Stadium",
+        "image": "./img/pictures/oita.jpg"
+    },
+    {
+        "position": [34.743455, 137.970865],
+        "content": "Shizuoka Stadium ECOPA (静岡スタジアム・エコパ Shizuoka Sutajiamu Ekopa) is a sports stadium used primarily for football.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Shizuoka Stadium Ecopa",
+        "image": "./img/pictures/ecopa.jpg"
+    },
+    {
+        "position": [34.656785, 135.169562],
+        "content": "The Kobe City Misaki Park Stadium (神戸市御崎公園球技場), also known as The Noevir Stadium Kobe (ノエビアスタジアム神戸), is a football stadium in Misaki Park, Hyogo-ku, Kobe, Japan. The stadium has a capacity of 30,132.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Kobe Misaki Stadium",
+        "image": "./img/pictures/kobe.jpg"
+    },
+    {
+        "position": [34.669041, 135.626263],
+        "content": "The Hanazono Rugby Stadium (東大阪市花園ラグビー場, literally \"Higashiosaka City Hanazono Rugby Stadium\") in Higashiosaka is the oldest dedicated rugby union stadium in Japan.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Hanazono Rugby Stadium",
+        "image": "./img/pictures/hanazono.jpg"
+    },
+    {
+        "position": [35.084534, 137.170916],
+        "content": "Toyota Stadium (豊田スタジアム Toyota Sutajiamu) is a 45,000 seat retractable roof stadium in Toyota, Aichi Prefecture, Japan.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "City of Toyota Stadium",
+        "image": "./img/pictures/toyota.jpg"
+    },
+    {
+        "position": [36.168381, 139.402387],
+        "content": "Kumagaya Rugby Stadium (熊谷ラグビー場), is a rugby stadium in Kumagaya, Saitama, Japan. It is currently used mostly for rugby union matches.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Kumagaya Rugby Stadium",
+        "image": "./img/pictures/kumagaya.jpg"
+    },
+    {
+        "position": [33.585921, 130.460895],
+        "content": "Level5 Stadium (レベルファイブスタジアム) (formerly Hakatanomori Football Stadium, renamed on March 1, 2008 for naming rights), located in the Hakata ward of Fukuoka city is the home ground of Avispa Fukuoka association football club.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Fukuoka Hakatanomori Stadium",
+        "image": "./img/pictures/fukuoka.jpg"
+    },
+    {
+        "position": [43.015019, 141.409986],
+        "content": "Sapporo Dome (札幌ドーム Sapporo Dōmu) is a stadium located in Toyohira-ku, Sapporo, Japan, and is primarily used for baseball and association football.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Sapporo Dome",
+        "image": "./img/pictures/sapporo.jpg"
+    },
+    {
+        "position": [32.836779, 130.80007],
+        "content": "Egao Kenko Stadium (えがお健康スタジアム) is a multi-purpose stadium in Higashi-ku, Kumamoto, Japan. It is currently used mostly for football (Roasso Kumamoto) matches and sometimes for Top League rugby games. The stadium holds 32,000 people.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Kumamoto Stadium",
+        "image": "./img/pictures/kumamoto.jpg"
+    },
+    {
+        "position": [39.326791, 141.891506],
+        "content": "Kamaishi Recovery Memorial Stadium (Japanese: 釜石鵜住居復興スタジアム Hepburn: Kamaishi Unosumai Fukkō Sutajiamu), also known as Kamaishi Unosumai Stadium, is a stadium in Unosumai-cho, Kamaishi, Iwate.",
+        "icon": "rugby",
+        "animation": "drop",
+        "title": "Kamaishi Recovery Memorial Stadium",
+        "image": "./img/pictures/kamaishi.jpg"
+    },
+
+
+
+    {
+        "position": [35.544396, 139.767784],
+        "content": "Tokyo International Airport (東京国際空港 Tōkyō Kokusai Kūkō), commonly known as Haneda Airport (羽田空港 Haneda Kūkō), Tokyo Haneda Airport, and Haneda International Airport (IATA: HND, ICAO: RJTT), is one of the two primary airports that serve the Greater Tokyo Area.",
+        "icon": "flight",
+        "animation": "drop",
+        "title": "Haneda International Airport",
+        "image": "./img/pictures/airport_haneda.png"
+    },
+    {
+        "position": [35.772586, 140.388907],
+        "content": "This mammoth international airport serving the Tokyo area offers direct rail access to the city.",
+        "icon": "flight",
+        "animation": "drop",
+        "title": "Narita International Airport",
+        "image": "./img/pictures/airport_narita.jpg"
+    },
+    {
+        "position": [34.431525, 135.230308],
+        "content": "Serving the greater Osaka area, this hub on a man-made island has rail access & an adjacent hotel.",
+        "icon": "flight",
+        "animation": "drop",
+        "title": "Kansai International Airport",
+        "image": "./img/pictures/airport_kansai.jpg"
+    },
+    {
+        "position": [34.858606, 136.812204],
+        "content": "This Central Japan airport on an artificial island offers direct rail access & on-site lodging.",
+        "icon": "flight",
+        "animation": "drop",
+        "title": "Chubu Centrair International Airport",
+        "image": "./img/pictures/airport_chubu.jpg"
+    },
+    {
+        "position": [34.635140, 135.225006],
+        "content": "Regional airport with a runway observation deck, rooftop gardens & direct-rail service to Sannomiya.",
+        "icon": "flight",
+        "animation": "drop",
+        "title": "Kobe Airport",
+        "image": "./img/pictures/airport_kobe.jpg"
+    }
+]
