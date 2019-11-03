@@ -338,6 +338,9 @@ function createServiceBubble(place) {
 }
 
 function showError(message) {
+    if($('.alert-dismissible').get(0) != undefined){
+        $('.alert-dismissible button').get(0).click();
+    }
     let errorString = `
         <div class="alert alert-danger alert-dismissible">
             <button type="button" class="close" data-dismiss="alert">&times;</button>
