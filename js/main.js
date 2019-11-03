@@ -7,6 +7,38 @@ let mapWindow = null;
 let directionsDisplay = null;
 let directionsService = null;
 
+let icons = {
+    rugby: {
+        url: "./img/icons/rugby.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    },
+    flight: {
+        url: "./img/icons/flight.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    },
+    cafe: {
+        url: "./img/icons/cafe.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    },
+    bar: {
+        url: "./img/icons/bar.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    },
+    hotel: {
+        url: "./img/icons/hotel.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    },
+    restaurant: {
+        url: "./img/icons/restaurant.svg",
+        scaledSize: new google.maps.Size(30, 30)
+    }
+};
+
+let animations = {
+    drop: google.maps.Animation.DROP,
+    bounce: google.maps.Animation.BOUNCE
+};
+
 async function onAllAssetsLoaded() {
     // hide the webpage loading message
     document.getElementById("loadingMessage").style.visibility = "hidden";
@@ -48,21 +80,6 @@ async function displayMap() {
 }
 
 function updateWebpage(response) {
-    let icons = {
-        rugby: {
-            url: "./img/icons/rugby.svg",
-            scaledSize: new google.maps.Size(30, 30)
-        },
-        flight: {
-            url: "./img/icons/flight.svg",
-            scaledSize: new google.maps.Size(30, 30)
-        }
-    };
-
-    let animations = {
-        drop: google.maps.Animation.DROP,
-        bounce: google.maps.Animation.BOUNCE
-    };
 
     let locations = [];
     for (let i = 0; i < response.length; i++) {
@@ -117,6 +134,9 @@ async function getNearby(name) {
                 lng: locations[i].lng
             };
 
+            mapObj.setCenter(services_centre_location);
+            mapObj.setZoom(15);
+
             let service = new google.maps.places.PlacesService(mapObj);
 
             let types = ["cafe", "restaurant", "bar", "lodging"];
@@ -147,15 +167,27 @@ async function getNearby(name) {
 
             function createServiceMarker(place, status) {
                 if (status == google.maps.places.PlacesServiceStatus.OK){
+                    let icon = null;
+                    if(place.types.includes("restaurant")) {
+                        icon = icons.restaurant;
+                    } else if(place.types.includes("cafe")) {
+                        icon = icons.cafe;
+                    } else if(place.types.includes("bar")) {
+                        icon = icons.bar;
+                    } else if(place.types.includes("lodging")) {
+                        icon = icons.hotel;
+                    } else {
+                        icon = {
+                            url: place.icon,
+                            scaledSize: new google.maps.Size(30, 30)
+                        };
+                    }
                     let marker = {
                         position: place.geometry.location,
                         content: createServiceBubble(
                             place
                         ),
-                        icon: {
-                            url: place.icon,
-                            scaledSize: new google.maps.Size(30, 30)
-                        },
+                        icon: icon,
                         animation: null,
                         title: place.name,
                         place: place
@@ -390,4 +422,5 @@ function openInfoScreen(place) {
     }
     infoBox = infoBox.concat('</div>');
     $('#info').html(infoBox);
+    $('#info').focus();
 }
