@@ -39,7 +39,7 @@ async function displayMap() {
     let url_params = "";
 
     let response = await fetch(locations_url, {
-        method: "POST",
+        method: "GET",
         headers: {
             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
         },
@@ -95,7 +95,7 @@ async function getNearby(name) {
     let url_params = "";
 
     let response = await fetch(locations_url, {
-        method: "POST",
+        method: "GET",
         headers: {
             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
         },
