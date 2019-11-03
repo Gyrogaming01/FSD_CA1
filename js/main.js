@@ -36,14 +36,12 @@ function init()
 
 async function displayMap() {
     let locations_url = "./data/locations.json";
-    let url_params = "";
 
     let response = await fetch(locations_url, {
         method: "GET",
         headers: {
             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
-        },
-        body: url_params
+        }
     });
 
     updateWebpage(await response.json());
@@ -92,14 +90,12 @@ function updateWebpage(response) {
 
 async function getNearby(name) {
     let locations_url = "./data/locations.json";
-    let url_params = "";
 
     let response = await fetch(locations_url, {
         method: "GET",
         headers: {
             "Content-type": "application/x-www-form-urlencoded; charset=UTF-8"
-        },
-        body: url_params
+        }
     });
 
     let json = await response.json();
